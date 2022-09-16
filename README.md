@@ -1,5 +1,12 @@
 # eslint-plugin-absolute-imports-improved
 
+Based on eslint-plugin-absolute-imports with fixes for my specific system namely:
+ - Fixes for windows backslashes.
+ - Using double quotes rather than single quotes.
+ - src paths start with an @ symbol.
+ 
+This probably doesn't belong in npm and you should probably use eslint-plugin-absolute-imports instead.
+
 A (zero-dependency!) eslint plugin that enforces absolute imports on your codebase.
 
 ## Prerequisites
